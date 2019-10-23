@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../delivery-auth-server/delivery-auth-server.iml" filepath="$PROJECT_DIR$/../delivery-auth-server/delivery-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delivery-config-server.iml" filepath="$PROJECT_DIR$/delivery-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../delivery-eureka-server/delivery-eureka-server.iml" filepath="$PROJECT_DIR$/../delivery-eureka-server/delivery-eureka-server.iml" />
+    </modules>
+  </component>
+</project>
