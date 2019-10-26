@@ -9,12 +9,14 @@
         <module name="delivery-auth-server" />
         <module name="delivery-config-server" />
         <module name="delivery-eureka-server" />
+        <module name="delivery-order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="delivery-auth-server" target="1.8" />
       <module name="delivery-config-server" target="1.8" />
       <module name="delivery-eureka-server" target="1.8" />
+      <module name="delivery-order-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

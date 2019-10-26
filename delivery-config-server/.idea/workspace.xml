@@ -5,6 +5,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../delivery-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/../delivery-auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/../delivery-order-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,25 +37,106 @@
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="delivery: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="delivery: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="delivery: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/config/WebSecurityConfig.java">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="43">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeliveryConfigServerApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/diogo/deliveryconfigserver/DeliveryConfigServerApplicationTests.java">
+      <file leaf-file-name="ExceptionHandlerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/exception/ExceptionHandlerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/model/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/repository/OrderRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/security/SecurityConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeliveryOrderServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/DeliveryOrderServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeliveryOrderServiceApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/test/java/com/diogo/deliveryorderservice/DeliveryOrderServiceApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
@@ -65,68 +147,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeliveryEurekaServerApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../delivery-eureka-server/src/test/java/com/diogo/deliveryeurekaserver/DeliveryEurekaServerApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../delivery-auth-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/model/Usuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+            <state relative-caret-position="360">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="969">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../delivery-eureka-server/pom.xml">
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="51">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding>
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +223,6 @@
         <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/model/User.java" />
         <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/DeliveryAuthServerApplication.java" />
         <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/model/Authority.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/492e1a73-aeea-4aa5-8354-a0d75eaf218b/console.sql" />
         <option value="$PROJECT_DIR$/../delivery-auth-server/src/test/java/com/diogo/deliveryauthserver/DeliveryAuthServerApplicationTests.java" />
         <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -179,10 +231,21 @@
         <option value="$PROJECT_DIR$/../delivery-eureka-server/src/test/java/com/diogo/deliveryeurekaserver/DeliveryEurekaServerApplicationTests.java" />
         <option value="$PROJECT_DIR$/../delivery-auth-server/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/492e1a73-aeea-4aa5-8354-a0d75eaf218b/console_2.sql" />
-        <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/schema.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/492e1a73-aeea-4aa5-8354-a0d75eaf218b/console_1.sql" />
         <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/data.sql" />
         <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/model/Usuario.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/492e1a73-aeea-4aa5-8354-a0d75eaf218b/console.sql" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/model/Order.java" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/repository/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/exception/ExceptionHandlerController.java" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/security/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/DeliveryOrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/../delivery-order-service/src/test/java/com/diogo/deliveryorderservice/DeliveryOrderServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/schema.sql" />
       </list>
     </option>
   </component>
@@ -240,30 +303,6 @@
               <item name="delivery-auth-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="delivery-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deliveryauthserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="delivery-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deliveryauthserver" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="delivery-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,22 +315,40 @@
             </path>
             <path>
               <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="delivery-order-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="delivery-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="delivery-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="492e1a73-aeea-4aa5-8354-a0d75eaf218b" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="delivery-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delivery-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deliveryorderservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="delivery-config-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delivery-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +367,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../delivery-auth-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../delivery-order-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -327,7 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeliveryEurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.DeliveryOrderServiceApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -359,6 +416,10 @@
       <module name="delivery-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.diogo.deliveryeurekaserver.DeliveryEurekaServerApplication" />
     </configuration>
+    <configuration name="DeliveryOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="delivery-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.diogo.deliveryorderservice.DeliveryOrderServiceApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -385,6 +446,7 @@
       <item itemvalue="Spring Boot.DeliveryConfigServerApplication" />
       <item itemvalue="Spring Boot.DeliveryEurekaServerApplication" />
       <item itemvalue="Spring Boot.DeliveryAuthServerApplication" />
+      <item itemvalue="Spring Boot.DeliveryOrderServiceApplication" />
     </list>
   </component>
   <component name="TaskManager">
@@ -395,16 +457,15 @@
       <option name="presentableId" value="Default" />
       <updated>1571786912694</updated>
       <workItem from="1571786914195" duration="9641000" />
-      <workItem from="1572096873522" duration="2773000" />
+      <workItem from="1572096873522" duration="6111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12414000" />
+    <option name="totallyTimeSpent" value="15752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -412,7 +473,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32969153" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32969153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -424,11 +485,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5972414" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4648276" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32965517" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
@@ -534,38 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../delivery-eureka-server/src/main/java/com/diogo/deliveryeurekaserver/DeliveryEurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../delivery-eureka-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -664,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/492e1a73-aeea-4aa5-8354-a0d75eaf218b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/test/java/com/diogo/deliveryauthserver/DeliveryAuthServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -712,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/diogo/deliveryconfigserver/DeliveryConfigServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -743,20 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/492e1a73-aeea-4aa5-8354-a0d75eaf218b/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -771,20 +776,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/data.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/492e1a73-aeea-4aa5-8354-a0d75eaf218b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state>
+          <caret column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/java/com/diogo/deliveryauthserver/model/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-eureka-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/repository/OrderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/exception/ExceptionHandlerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/security/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/main/java/com/diogo/deliveryorderservice/DeliveryOrderServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/src/test/java/com/diogo/deliveryorderservice/DeliveryOrderServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-auth-server/src/main/resources/sql/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../delivery-order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>

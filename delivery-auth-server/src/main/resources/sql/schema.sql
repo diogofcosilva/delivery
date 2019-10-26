@@ -1,4 +1,4 @@
-CREATE TABLE usuario (
+CREATE TABLE IF NOT EXISTS usuario (
   username VARCHAR(50) NOT NULL,
   email VARCHAR(50),
   password VARCHAR(500),
@@ -20,8 +20,7 @@ CREATE TABLE IF NOT EXISTS user_authority (
   FOREIGN KEY (authority) REFERENCES authority (name)
 );
 
-CREATE UNIQUE INDEX user_authority_idx_1 ON user_authority (username, authority);
-
+CREATE UNIQUE INDEX IF NOT EXISTS user_authority_idx_1 ON user_authority (username, authority);
 
 CREATE TABLE IF NOT EXISTS oauth_access_token (
   token_id VARCHAR(256) DEFAULT NULL,

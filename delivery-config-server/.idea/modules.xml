@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../delivery-auth-server/delivery-auth-server.iml" filepath="$PROJECT_DIR$/../delivery-auth-server/delivery-auth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/delivery-config-server.iml" filepath="$PROJECT_DIR$/delivery-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../delivery-eureka-server/delivery-eureka-server.iml" filepath="$PROJECT_DIR$/../delivery-eureka-server/delivery-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../delivery-order-service/delivery-order-service.iml" filepath="$PROJECT_DIR$/../delivery-order-service/delivery-order-service.iml" />
     </modules>
   </component>
 </project>
