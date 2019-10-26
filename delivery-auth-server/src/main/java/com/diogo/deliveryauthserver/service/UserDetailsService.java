@@ -1,11 +1,10 @@
 package com.diogo.deliveryauthserver.service;
 
 import com.diogo.deliveryauthserver.model.Authority;
-import com.diogo.deliveryauthserver.model.User;
+import com.diogo.deliveryauthserver.model.Usuario;
 import com.diogo.deliveryauthserver.repository.UserRepository;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Optional;
 
 import javax.transaction.Transactional;
 
@@ -26,7 +25,7 @@ public class UserDetailsService implements org.springframework.security.core.use
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return userRepository.findByUsername(username)
                 .map(user -> new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), getGrantedAuthorities(user)))
-                .orElseThrow(() -> new UsernameNotFoundException("User "+username+" Not found"));
+                .orElseThrow(() -> new UsernameNotFoundException("Usuario "+username+" Not found"));
     }
 
     @Autowired
@@ -34,7 +33,7 @@ public class UserDetailsService implements org.springframework.security.core.use
         this.userRepository = userRepository;
     }
 
-    private Collection<GrantedAuthority> getGrantedAuthorities(User user){
+    private Collection<GrantedAuthority> getGrantedAuthorities(Usuario user){
         Collection<GrantedAuthority> grantedAuthorities = new ArrayList<>();
         for (Authority authority : user.getAuthorities()) {
             GrantedAuthority grantedAuthority = new SimpleGrantedAuthority(authority.getName());
